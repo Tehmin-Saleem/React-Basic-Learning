@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-export const FaqeerKyBety = ({name}) => {
+export const FaqeerKyBety = (faqeerkyprops) => {
+    let {name} = faqeerkyprops;
     const [faqeerKaBeta,  setFaqeerKaBeta ] = useState(1);
  return <>
       <div>
