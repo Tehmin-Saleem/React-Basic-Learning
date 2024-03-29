@@ -8,10 +8,13 @@ import { FaqeerKyBety } from './components/FaqeerKyBety';
 
 
 function App() {
+       const [name , setName] = useState("Abc");
 return <div>
-         {/* <MeiHonFaqeerkaBeta/> */}
-         {/* <FaqeerKyBety/> */}
-         <FaqeerKyBety name="Asad" name15="Abc" name14="Abc" name13="Abc" name12="Abc" name11="Abc" />
+         <input
+              type='text'
+              onChange={(event) => setName(event.target.value)}
+         />
+         <FaqeerKyBety name={name} />
        </div>
 }
 
