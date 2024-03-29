@@ -14,7 +14,7 @@ return <div>
               type='text'
               onChange={(event) => setName(event.target.value)}
          />
-         <FaqeerKyBety name={name} />
+         <FaqeerKyBety name1={name} />
        </div>
 }
 
